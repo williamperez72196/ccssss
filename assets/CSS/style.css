@@ -1,0 +1,105 @@
+/*  Propiedades personalizadas  */
+/*  Psedoclase llamada root  */
+:root {
+--White: hsl(0, 0%, 100%);
+--Light-gray: hsl(212, 45%, 89%);
+--Grayish-blue: hsl(220, 15%, 55%);
+--Dark-blue: hsl(218, 44%, 22%);
+/*  Tipografia  */
+--body-font: 'outfit', sans-serif;
+
+/*  font weights  */
+--font-md: 400;
+--font-xl: 700;
+/*  aqui tenemos todas las variables  */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--body-font);
+}
+
+html, body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+p {
+  font-size: 15px;
+}
+
+/*  Challenge section  */
+body {
+  background-color: var(--White);
+  color: var(--Dark-blue);
+  border-radius: 30px;
+}
+
+.container1 {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 30px 30px 30px 30px;
+  margin-top: 10px;
+  margin-block-end: 90px;
+}
+.container__qr {
+  width: 80%;
+  max-width: 400px;
+  margin-bottom: 30px;
+  margin-left: px;
+}
+
+.container__qr img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.container__text {
+  text-align: center;
+}
+
+
+
+
+
+
+
